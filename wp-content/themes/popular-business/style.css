@@ -1,0 +1,202 @@
+/*
+ Theme Name:   Popular Business
+ Theme URI:    https://wpzita.com/popular-business/
+ Description:  Popular Business is a child theme of zita WordPress theme, It provides very unique look and extra post layout. Zita is completely builder based theme, With super fast and highly customizable options. Zita works with any of your favorite page builder like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc. Best Suitable for creating any type of website such a corporate, store, agency, blog, portfolio, restaurant, wedding, construction, hospital, school, interior, car workshop, life coach, wine shop, barber shop, furniture shop, yoga, resume, charity, digital marketing etc. Zita includes 8 unique header layout and 8 footer widget layout which makes it extremely powerful. Some more amazing feature are #Woocommerce ready #RTL Ready #Full Responsive #Edit settings in tablet & mobile #Top header #Bottom header #Top footer #Bottom Footer #Transparent Header. Looking for perfect base theme? Looking for perfect multipurpose theme? No need to Look further! Just go with Zita demos: https://wpzita.com/. Zita is built with best SEO practice and best friend of Woocommerce and Elementor.
+ Author:       WpZita Team
+ Author URI:   https://wpzita.com/
+ Template:     zita
+ Version:      1.0.2
+ Requires at least: 4.5
+ Tested up to: 5.4
+ Requires PHP: 5.2.4
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors 
+ Text Domain: popular-business
+*/
+body {
+    background:#e2e4e7;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content{
+display:none;
+}
+#content .popular-business-blog-layout #main .main-content-row {
+-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:flex-start;
+    -webkit-align-items:flex-start;
+    -moz-box-align: flex-start;
+    -ms-flex-align:flex-start;
+    align-items:flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;}
+
+#content .popular-business-blog-layout article.zita-article{
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom: 4px;
+    width: calc(50% - 4px);
+   float:none;
+}
+
+#content .popular-business-blog-layout article.zita-article:nth-child(5n+3), #content .popular-business-blog-layout article.zita-article:nth-child(5n+4), #content .popular-business-blog-layout article.zita-article:nth-child(5n+5){
+    width: calc(33.333333% - 4px);
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper{
+position: absolute;
+ bottom:0;
+}
+#content .popular-business-blog-layout article.zita-article .post-img-wrapper .post-img{
+margin-bottom:0;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper h2.entry-title a{
+color:#fff;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper,
+#content .popular-business-blog-layout article.zita-article .entry-meta a,
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper .entry-meta{
+color:rgba(255, 255, 255, 0.8);
+font-size: 14px;
+
+}
+#content .popular-business-blog-layout article.zita-article h2.entry-title a:before{
+width:0;
+}
+article.zita-article:first-child .popular-business-blog-layout h2.entry-title a,
+article.zita-article:nth-child(5n+5) .popular-business-blog-layout h2.entry-title a{
+margin:0;
+}
+.entry-content-wrapper{
+position:relative;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper:before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    top: -100px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(5.3%, rgba(0, 0, 0, 0.917)), color-stop(10.6%, rgba(0, 0, 0, 0.834)), color-stop(15.9%, rgba(0, 0, 0, 0.753)), color-stop(21.3%, rgba(0, 0, 0, 0.672)), color-stop(26.8%, rgba(0, 0, 0, 0.591)), color-stop(32.5%, rgba(0, 0, 0, 0.511)), color-stop(38.4%, rgba(0, 0, 0, 0.433)), color-stop(44.5%, rgba(0, 0, 0, 0.357)), color-stop(50.9%, rgba(0, 0, 0, 0.283)), color-stop(57.7%, rgba(0, 0, 0, 0.213)), color-stop(65%, rgba(0, 0, 0, 0.147)), color-stop(72.9%, rgba(0, 0, 0, 0.089)), color-stop(81.4%, rgba(0, 0, 0, 0.042)), color-stop(90.6%, rgba(0, 0, 0, 0.011)), to(transparent));
+    background-image: -o-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+    background-image: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+}
+
+#content .popular-business-blog-layout article.zita-article h2.entry-title,
+#content .popular-business-blog-layout article.zita-article .entry-meta,
+#content .popular-business-blog-layout article.zita-article .entry-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ #content .popular-business-blog-layout article.zita-article .entry-content-wrapper .entry-meta{
+    margin-bottom:20px;
+ }
+#content .entry-content-outer-wrapper.popular-business-blog-layout .entry-content-wrapper.no-thumb{
+width:100%;
+}
+#content .entry-content-outer-wrapper.popular-business-blog-layout .zta-date-meta.no-thumb .posted-on{
+margin-left:0;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content{
+margin-bottom:40px;
+}
+#content .popular-business-blog-layout article.zita-article .post-img-wrapper,#content .popular-business-blog-layout article.zita-article .entry-content-wrapper{
+width:100%;
+float:none;
+margin:0;
+padding-right:0;
+}
+
+#content.site-content{
+  display:block;
+}
+#content .entry-content-outer-wrapper.popular-business-blog-layout:before{
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+}
+
+#content .entry-content-outer-wrapper.popular-business-blog-layout {
+    padding:0;
+    position: relative;
+        overflow: hidden;
+}
+
+article.zita-article .popular-business-blog-layout h2.entry-title{
+    font-size: 21px;
+    font-family: "Catamaran-bold", sans-serif;
+    position: relative;
+    letter-spacing: normal;
+
+}
+article.zita-article .popular-business-blog-layout h2.entry-title a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    width:3px;
+    height: 60%;
+    background-color:#006799;
+}
+.popular-business-blog-layout .entry-meta {
+font-family: "Catamaran-semibold", sans-serif;
+    margin-top: 10px;
+    position:relative;
+
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb{
+position:relative;
+color:#808285;
+padding: 20px;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb:before{
+position:relative;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb h2.entry-title a{
+color:#3a3a3a;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta{
+   color: #9c9c9c;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta a{
+color:#666;
+}
+#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb h2.entry-title, #content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta,#content .popular-business-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-content{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#content .popular-business-blog-layout article.zita-article:hover .post-img-wrapper .post-img img{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+    will-change: transform;
+}
+
+#content .popular-business-blog-layout article.zita-article .post-img-wrapper .post-img img {
+    transition: transform 1s ease;
+}
+@media screen and (max-width: 767px){
+#content .popular-business-blog-layout article.zita-article:nth-child(5n+3),
+ #content .popular-business-blog-layout article.zita-article:nth-child(5n+4),
+  #content .popular-business-blog-layout article.zita-article:nth-child(5n+5),
+  #content .popular-business-blog-layout article.zita-article{
+    width: 100%;
+}
+}
